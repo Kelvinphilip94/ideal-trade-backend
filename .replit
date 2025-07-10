@@ -2,3 +2,7 @@ modules = ["nodejs-20"]
 
 [nix]
 packages = ["nano"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
